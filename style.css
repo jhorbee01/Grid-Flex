@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+.main {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  width: 100%;
+  height: auto;
+  background-color: rgb(26, 218, 170);
+  text-align: center;
+}
+span {
+  display: inline-block;
+  border: 1px solid transparent;
+  padding: 15px;
+  margin-left: 20px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 1440px;
+  background-color: hsl(0, 0%, 95%);
+}
+.flex-item {
+  width: 195px;
+  text-align: left;
+  padding: 2em 2em;
+}
+button {
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 95%);
+}
+.item1 {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.item1 button {
+  color: hsl(31, 77%, 52%);
+}
+.item1 button:hover,
+.item1 button:focus {
+  color: aliceblue;
+  border: 1px solid white;
+  background-color: hsl(31, 77%, 52%);
+}
+
+.item2 {
+  background-color: hsl(184, 100%, 22%);
+}
+.item2 button {
+  color: hsl(184, 100%, 22%);
+}
+.item2 button:hover,
+.item2 button:focus {
+  color: aliceblue;
+  border: 1px solid white;
+  background-color: hsl(184, 100%, 22%);
+}
+
+.item3 {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.item3 button {
+  color: hsl(179, 100%, 13%);
+}
+.item3 button:hover,
+.item3 button:focus {
+  color: aliceblue;
+  border: 1px solid white;
+  background-color: hsl(179, 100%, 13%);
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0, 0%, 95%);
+}
+p,
+img,
+h2 {
+  margin-top: 2rem;
+}
+button {
+  font-family: "Big Shoulders Display", cursive;
+  margin-top: 4em;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  background-color: hsl(0, 0%, 95%);
+}
+@media screen and (max-width: 375px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 1440px;
+    background-color: hsl(0, 0%, 95%);
+  }
+  .item3 {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 0px;
+  }
+  .item1 {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+  }
+}
